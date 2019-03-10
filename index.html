@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css"></link>
+    <script src="index.js" defer></script>
+    <title>Nought And Crosses</title>
+  </head>
+  <body>
+    <h1>Let's play!!!</h1>
+    <div class="grid-container">
+      <div data-cy="boxes" id='' class="grid-item top colLeft diag1"></div>
+      <div data-cy="boxes" id='' class="grid-item top colMid"></div>
+      <div data-cy="boxes" id='' class="grid-item top colRight diag2"></div>
+      <div data-cy="boxes" id='' class="grid-item midRow colLeft"></div>
+      <div data-cy="boxes" id='' class="grid-item midRow colMid diag1 diag2"></div>
+      <div data-cy="boxes" id='' class="grid-item midRow colRight"></div>
+      <div data-cy="boxes" id='' class="grid-item bottom colLeft diag2"></div>
+      <div data-cy="boxes" id='' class="grid-item bottom colMid"></div>
+      <div data-cy="boxes" id='' class="grid-item bottom colRight diag1"></div>
+    </div>
+
+    <!-- <button type="reset" value="Reset">Reset</button> -->
+    <button onclick="restartGame(this)">Restart</button>
+
+   
+  </body>
+</html>
